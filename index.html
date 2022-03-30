@@ -1,18 +1,83 @@
----
-layout: default
----
+<div class="container">
+	<section class="header">
+		<h1 class="title">Riolet Corporation</h1>
+		<h3 class="title">CI/CD cloud reliability engineering consultants</h3>				
+	</section>
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
-
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
+    <div class="navbar-spacer"></div>
+    <nav class="navbar">
+      <div class="container">
+        <ul class="navbar-list">
+          <li class="navbar-item"><a class="navbar-link" href="#intro">Intro</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#curd">CURD</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#tools">Tools</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#tools">Team</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#contact">Contact</a></li>
+        </ul>
       </div>
+    </nav>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
+
+    <!-- Why use Skeleton -->
+    <div class="docs-section" id="intro">
+      <h6 class="docs-header">Empower your developers</h6>
+      <p>Quick, good, and cheap. They say you can only pick two. We say pick all three. By significantly improving the efficiency of your software developers and drastically cutting the time to market for new improvements through the use of our continuous update reliable delivery (CURD)  philosophy, we ensure that you are always ready to respond to you customers’ ever changing needs.</p>
+    </div>
+    
+    <div class="docs-section" id="curd">
+      <h6 class="docs-header">The CURD philosophy</h6>
+      <p>Imagine you have a new feature that will add an extra million dollars a month in sales,  but it takes you six months to get it to market because of inefficiencies in your software development lifecycle (SDLC), when it could have been done in three. You have just lost three million.
+
+</p><p>Inefficiencies in a typical SDLC include waiting on sysops to build new testing environments, waiting on QAs to do testing, and waiting on your cloud devops to build delivery environments.</p>
+
+<p>The four ingredients of CURD that help remove these bottlenecks are:</p>
+<ol><li>A single automated end-to-end CI/CD pipeline that takes code that your developers produce to the cloud in the shortest possible time</li>
+<li>A single source of truth for all aspects of your stack through the use of infrastructure as code (IaC) and software defined networking (SDN), residing in your source repo with the code</li>
+<li>An architecture that meets at least the minimal set of Architecturally Significant Requirements (ASRs) of deployability, modifiability, testability, and monitorability</li>
+<li>A culture that encourages learning, adaptation and change</li></ol>
+
+<p>We have successfully applied the CURD philosophy to both greenfield projects and legacy applications ranging from gaming software to eCommerce applications.</p>
+    </div>        	
+
+    <div class="docs-section" id="tools">
+      <h6 class="docs-header">Our open source tools for the community</h6>    
+
+<p>On top of our consultancy work, we build and maintain open source tools to help the community. Pull requests are always welcome.</p>
+
+<ul>
+<li><a href="http://web.archive.org/web/20190515043535/https://github.com/riolet/rix">Rix</a> language combines the power of C language and the convenience of a high level language.</li>
+
+<li><a href="http://web.archive.org/web/20190515043535/https://github.com/riolet/wafer">WAFer</a> is a C language-based software platform for scalable server-side and networking applications. Think node.js for C programmers.</li>
+
+<li><a href="http://web.archive.org/web/20190515043535/https://github.com/riolet/harbour">Harbour</a> is a simple web front end for Docker distributed as a single python file. No installation required.</li>
+
+<li><a href="http://web.archive.org/web/20190515043535/https://github.com/riolet/sam">SAM</a>, our system architecture mapper, is a an interactive network-traffic mapping tool, which uses information from the connection logs of routers and draws a map of the connections between hosts.</li>
+
+<li><a href="http://web.archive.org/web/20190515043535/https://github.com/riolet/longs">Longs</a> is a URL Shortener built with WAFer and SQLite.</li>
+</ul>
+
+	</div>
+
+
+    <div class="docs-section" id="team">
+      <h6 class="docs-header">The Team</h6>    
+
+<strong>Rohana Rezel - Founder and President</strong>
+
+<p>Rohana, a self-taught polyglot both with computers (C, Python, Java, Javascript, Go and a few others) and with humans (English, Sinhala, Spanish, and Thai), is the father of the Rix language. Two decades of experience both as a developer and Linux sysadmin helped Rohana understand the problem facing the world of software development, prompting him to come up with the CURD philosophy as a cure. A prestigious Erasmus Mundus scholar with an MSc in Engineering from the University of Calgary and BSc degree in computer science from the University of Manchester, Rohana has helped clients ranging from EA to small startups to improve efficiencies in their SDLC.</p>
+
+<p>Rohana is an avid Salsa dancer who founded Ruede de la Vida, a Casin de Rueda (Cuban Salsa) performance group that helps raise funds for charity. This year alone, the group helped raise funds for homeless youth in Vancouver, Syrian refugee resettlement, earthquake victims in Japan, and evacuees of the Fort McMurray fire.</p>
+
+<strong>Joe Pelz - R&amp;D Software Engineer</strong>
+<p>Joe joined Riolet after designing and implementing the first production compiler for Rix while still an undergrad. Joe, a polyglot (C, Python, Java, Javascript, and a few others), researches and develops new tools to help our clients solve complex problems. Joe also dabbles game being part of the team that developed Carepal, a game for 6-8 year olds who live with cystic fibrosis. Joe is also an accomplished FX artist, credited as a visual effects artist for full-length feature films Escape from Planet Earth and Ratchet &amp; Clank. Joe holds a Diploma in Computer Science from BCIT and a Diploma in Game Art and Design from The Art Institute of Vancouver.</p>
+
+<p>Joe’s other interests include acro yoga, unicycling and juggling.</p>
+	</div>
+
+    <div class="docs-section" id="contact">
+      <h6 class="docs-header">Contact Us</h6>    
+	<ul><li>✉ info@riolet.com</li>
+	<li>✆ 778.819.8477</li></ul>
+	</div>
+	    
 </div>
